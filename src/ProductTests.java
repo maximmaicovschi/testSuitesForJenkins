@@ -13,6 +13,7 @@ public class ProductTests {
 
     @Test
     public void test_right_values_when_applying_tax() {
+		System.out.println("Inside Product Tests");
         double expectedTax = product.getPrice() * 0.19;
         Assert.assertEquals(expectedTax, product.getTotalTax(), 0.0);
     }

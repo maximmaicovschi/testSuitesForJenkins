@@ -19,6 +19,7 @@ public class CustomerTests {
 
     @Test
     public void test_right_values_when_applying_tax() {
+		System.out.println("Inside Customer Tests");
         Assert.assertEquals(2349.0, customer.getTotalPrice(), 0.0);
     }
 }
